@@ -30,7 +30,7 @@ let package = Package(
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
-        .package(url: "https://github.com/IBM-Swift/Kitura-net.git", from: "2.1.0"),
+        .package(url: "git@github.com:liamnichols/Kitura-net.git", .branch("ln/ios")),
         .package(url: "https://github.com/IBM-Swift/BlueCryptor.git", from: "1.0.0"),
 
     ],
